@@ -1,5 +1,5 @@
 FROM node:4
-ENV http_proxy=http://16.85.88.10:8080 https_proxy=http://16.85.88.10:8080
+# ENV http_proxy=http://16.85.88.10:8080 https_proxy=http://16.85.88.10:8080
 RUN mkdir -p /usr/src/app
 WORKDIR /usr/src/app
 
