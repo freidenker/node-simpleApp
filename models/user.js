@@ -68,7 +68,7 @@ User.get=function(name, callback){
 */
 var crypto=require('crypto');
 var mongoose = require('mongoose');
-mongoose.connect('mongodb://15.107.17.82/blog');
+mongoose.connect('mongodb://54.202.53.55/blog');
 
 var userSchema = new mongoose.Schema({
   name: String,
