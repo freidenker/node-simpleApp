@@ -13,11 +13,11 @@ pipeline {
             steps {
               script{
                 if(params.awsAccount=='saw'){
-                    aws_account_id="saw"
-                    sh "echo saw account"
+                    aws_account_id="Saw"
+                    sh "echo saw account $aws_account_id"
                 }else if(params.awsAccount=='sigma'){
-                    aws_account_id="sigma"
-                    sh "echo sigma account"
+                    aws_account_id="Sigma"
+                    sh "echo sigma account $aws_account_id "
                 }
               }
             }
