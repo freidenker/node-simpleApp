@@ -2,7 +2,7 @@ var express = require('express')
 var app = express()
 
 app.get('/', function (req, res) {
-  res.send('Hello World, Ich bin Winter, update at 2017.5.23!')
+  res.send('Hello World, Ich bin Winter, update at 2018.03.08!')
 })
 
 app.listen(3000, function () {
