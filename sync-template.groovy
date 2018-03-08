@@ -11,7 +11,7 @@ pipeline {
 
         stage('stage #2: get the list'){
             steps {
-                    sh "echo hallo world sommer"
+                    sh "echo hallo world sommer zwei"
             }
         }
 
