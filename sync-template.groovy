@@ -6,7 +6,7 @@ pipeline {
         timestamps()
         ansiColor('xterm')
     }
-    agent { label 'builder05' }
+    agent { label 'master' }
     stages {
 
         stage('stage #2: get the list'){
