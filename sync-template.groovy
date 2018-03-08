@@ -2,10 +2,6 @@
 
 pipeline {
 
-    options {
-        timestamps()
-        ansiColor('xterm')
-    }
     agent { label 'master' }
     stages {
 
